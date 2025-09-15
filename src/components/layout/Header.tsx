@@ -1,4 +1,4 @@
-import React from "react";
+import logo from "@/logo.svg";
 
 export function Header() {
   return (
@@ -6,7 +6,9 @@ export function Header() {
       <div className="text-xl font-semibold">Analytics Admin</div>
       <div className="flex items-center gap-4">
         <span className="text-gray-600">User</span>
-        <div className="w-8 h-8 rounded-full bg-gray-300" />
+        <div className="w-8 h-8 rounded-full bg-gray-300">
+          <img src={logo} alt="User" className="w-full h-full" />
+        </div>
       </div>
     </header>
   );

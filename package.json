@@ -8,9 +8,10 @@
   "scripts": {
     "dev": "bun --hot src/index.tsx",
     "start": "NODE_ENV=production bun src/index.tsx",
-    "build": "bun run build.ts",
+    "build": "bun run build.ts --outdir=dist --minify",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://nhttoan0809.github.io/table-chart-app/",
   "dependencies": {
     "@hookform/resolvers": "^4.1.0",
     "@radix-ui/react-label": "^2.1.2",
