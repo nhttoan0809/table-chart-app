@@ -1,6 +1,6 @@
 # Các bước triển khai dự kiến
 
-1. Tạo cấu dự án đơn giản với BunJS.
+1. Tạo cấu trúc dự án đơn giản với BunJS.
 2. Tạo UI đơn giản với layout có dạng dashboard.
 3. Thử build ra UI tĩnh SPA.
 4. Thử deploy lên Github - Pages.
